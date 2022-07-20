@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store:schema xmlns:store="http://www.w3.org/2001/XMLSchema">
+  <store:element name="Gift_Card_Store">
+    <store:complexType>
+      <store:sequence>
+        <store:element name="Store_details">
+          <store:complexType>
+            <store:sequence>
+              <store:element name="store_name" type="store:string"/>
+              <store:element name="store_address" type="store:string"/>
+              <store:element name="telephone_number" type="store:string"/>
+              <store:element name="website">
+                <store:simpleType>
+                  <store:restriction base="store:string">
+                    <store:pattern value="(https?:\/\/)?([\w\d]+\.)?[\w\d]+\.\w+\/?.+"/>
+                  </store:restriction>
+                </store:simpleType>
+              </store:element>
+              <store:element name="logo"/>
+              <store:element name="Head" type="store:string"/>
+            </store:sequence>
+          </store:complexType>
+        </store:element>
+        <store:element name="Gift_Cards">
+          <store:complexType>
+            <store:sequence>
+              <store:element maxOccurs="unbounded" minOccurs="0" name="gift_card">
+                <store:complexType>
+                  <store:sequence>
+                    <store:element name="card_name">
+                      <store:simpleType>
+                        <store:restriction base="store:string">
+                            <store:enumeration value="STEAM GIFT CARD" />
+                            <store:enumeration value="AMAZON GIFT CARD" />
+                            <store:enumeration value="GOOGLE PLAY GIFT CARD" />
+                            <store:enumeration value="PLAYSTATION PLUS" />
+                            <store:enumeration value="NINTENDO" />
+                            <store:enumeration value="ITUNES GIFT CARD"/>
+                            <store:enumeration value="XBOX LIVE GIFT CARD" />
+                            <store:enumeration value="VALORANT GIFT CARD" />
+                            <store:enumeration value="RAZER GOLD GIFT CARD" />
+                            <store:enumeration value="ROBLEX GIFT CARD" />
+                            <store:enumeration value="APEX LEGENDS GIFT CARD" />
+                            <store:enumeration value="STARBUCKS GIFT CARD" />
+                            <store:enumeration value="LEAUGE OF LEGENDS GIFT CARD" />
+                            <store:enumeration value="WWWE GIFT CARD" />
+                            <store:enumeration value="FIFA GIFT CARD" />
+                        </store:restriction>
+                      </store:simpleType>
+                    </store:element>
+                    <store:element name="Brand">
+                      <store:complexType>
+                        <store:simpleContent>
+                          <store:extension base="store:string">
+                            <store:attribute name="code" type="store:positiveInteger" use="required"/>
+                          </store:extension>
+                        </store:simpleContent>
+                      </store:complexType>
+                    </store:element>
+                    <store:element name="no_of_users">
+                      <store:complexType>
+                        <store:simpleContent>
+                          <store:extension base="store:string">
+                            <store:attribute name="categorary" type="store:string" use="required"/>
+                          </store:extension>
+                        </store:simpleContent>
+                      </store:complexType>
+                    </store:element>
+                    <store:element minOccurs="0" maxOccurs="8" name="owner">
+                      <store:complexType>
+                        <store:sequence>
+                          <store:element name="name" type="store:string" />
+                          <store:element name="contact_details" type="store:string"/>
+                          <store:element name="address">
+                          <store:complexType>
+                              <store:sequence>
+                                <store:element name="city" type="store:string"/>
+                                <store:element name="street_no" type="store:string"/>
+                              </store:sequence>
+                            </store:complexType>
+                          </store:element>
+                        </store:sequence>
+                      </store:complexType>
+                    </store:element>
+                    <store:element name="validity">
+                      <store:complexType>
+                        <store:sequence>
+                          <store:element name="start_date" type="store:string"/>
+                          <store:element name="end_date" type="store:string"/>
+                        </store:sequence>
+                      </store:complexType>
+                    </store:element>
+                    <store:element name="cost">
+                      <store:complexType>
+                        <store:simpleContent>
+                          <store:extension base="store:string">
+                            <store:attribute name="price" type="store:string" use="required"/>
+                          </store:extension>
+                        </store:simpleContent>
+                      </store:complexType>
+                    </store:element>
+                    <store:element minOccurs="0" maxOccurs="11" name="discount_voucher">
+                      <store:complexType>
+                        <store:sequence>
+                          <store:element name="expiry_date" type="store:string"/>
+                        </store:sequence>
+                      </store:complexType>
+                    </store:element>
+                    <store:element minOccurs="0" maxOccurs="unbounded" name="reawards">
+                      <store:complexType>
+                        <store:sequence>
+                          <store:element name="reward">
+                            <store:complexType>
+                              <store:sequence>
+                                <store:element name="points" type="store:string"/>
+                              </store:sequence>
+                            </store:complexType>
+                          </store:element>
+                        </store:sequence>
+                      </store:complexType>
+                    </store:element>
+                    <store:element minOccurs="0" maxOccurs="unbounded" name="Availability" type="store:string"/>
+                    <store:element name="Platform" type="store:string"/>
+                    <store:element minOccurs="0" maxOccurs="unbounded" name="Rating" type="store:string"/>
+                    <store:element name="Reviews" type="store:string"/>
+                    <store:element name="description" type="store:string"/>
+                  </store:sequence>
+                  <store:attribute name="id" type="store:string" use="required"/>
+                  <store:attribute name="type" type="store:string" use="required"/>
+                </store:complexType>
+              </store:element>
+            </store:sequence>
+          </store:complexType>
+        </store:element>
+      </store:sequence>
+    </store:complexType>
+  </store:element>
+</store:schema>

@@ -1,0 +1,561 @@
+Gift_Card_Store{
+    background-color: black;
+    background-image: url(images/backtop.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 650px;
+    background-position: fixed;
+    font-size: 20px;
+}
+store_name{
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    color: #808080;
+    padding-left: 550px;
+    font-size: 310%;
+    text-decoration: underline;
+}
+
+store_address{
+    position: absolute;
+    color: #808080;
+    font-family: "Brush Script MT", cursive;
+    margin-top: 70px;
+    margin-left: 600px;
+    font-size: 110%;
+}
+telephone_number{
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    color: #808080;
+    float: left;
+    width: 10%;
+    height: 30px;
+    margin-top: 115px;
+    margin-left:625px;
+    font-size: 90%;
+    
+}
+website{
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    color: #808080;
+    margin-top: 90px;
+    margin-left: 605px;
+}
+logo{
+    background-image: url(images/logo.png);
+    width: 90px;
+    height: 90px;
+    left: 35px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+}
+
+Head{
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    color: rgb(11, 238, 151);
+    font-size: 400%;
+    margin-top: 670px;
+    margin-left: 50px;
+    transition: color 50ms;
+    width:95%;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f623eb 0%,
+    #211290 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 330%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+Gift_Cards{
+    display: flex;
+    flex-direction:column;
+    font-size: 50px;
+    font-family: "Brush Script MT", cursive;;
+    color: rgb(11, 238, 151);
+    margin-top: 780px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-size: 680px 450px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgb(11, 238, 151);
+    border-radius: 3%;
+    transition: background-image 0.2s ease-in-out;
+}
+#g1{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/steam_gift_card.jpeg);
+    background-size: 680px 1050px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+card_name{
+    color: rgb(11, 238, 151);
+}
+owner{
+    display: flex;
+    flex-direction: column;
+}
+address{
+    display: flex;
+    flex-direction: column;
+}
+validity{
+    display: flex;
+    flex-direction: column;
+}
+description{
+    width: 50%;
+    display: list-item;
+    list-style: disc;
+    list-style-position: inside;
+}
+#g1:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g2{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/amazon_gift_card.jpg);
+    background-size: 680px 1120px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g2:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g3{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/googleplay.jpg);
+    background-size: 680px 1120px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g3:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g4{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/playstation.png);
+    background-size: 680px 1170px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g4:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g5{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/nintendo.jpg);
+    background-size: 680px 1130px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g5:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g6{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/itunes.jpg);
+    background-size: 680px 1150px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g6:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g7{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/xbox.png);
+    background-size: 680px 1230px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g7:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g8{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/valorent.jpg);
+    background-size: 680px 1230px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g8:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g9{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/razer.png);
+    background-size: 680px 1230px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g9:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g10{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/roblex.jpg);
+    background-size: 680px 1200px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g10:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+#g11{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/apex_legend.jpg);
+    background-size: 680px 1150px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g11:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}#g12{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/starbucks.jpg);
+    background-size: 680px 1120px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g12:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}#g13{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/league_of_legends.jpg);
+    background-size: 680px 1110px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g13:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}#g14{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/w2k14.jpg);
+    background-size: 680px 1250px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g14:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}#g15{
+    display: flex;
+    flex-direction:column;
+    font-family: "Brush Script MT", cursive;;
+    font-size: 50px;
+    color: greenyellow;
+    border-style: ridge;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/fifa22.jpg);
+    background-size: 680px 1170px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 5px solid rgba(212, 27, 27, 0.789);
+    border-radius: 3%;
+    transition: background-image 1.5s ease-in-out;
+}
+#g15:hover{
+    background-image: url(images/top_image_hover.png);
+    background-position: 0%;
+    background-size: cover;
+    color: rgb(86, 250, 187);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid greenyellow;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }

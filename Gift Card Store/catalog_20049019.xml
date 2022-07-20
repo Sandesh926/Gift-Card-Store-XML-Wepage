@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--XMl declaration standalone is no because schema file is connected with this XML file-->
+<!--
+    Name : Sandesh Bhurtyal
+    LondonMet_Id: 20049019
+    CollegeID: np01cp4s210300
+-->
+<?xml-stylesheet type="text/css" href="catalog_20049019.css"?>
+<Gift_Card_Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catlog_20049019.xsd">
+    <Store_details>
+        <store_name>London Store</store_name>
+        <store_address>London,United kingdom</store_address>
+        <telephone_number>+977 9814138224</telephone_number>
+        <website>www.sandeshgiftcard.com</website>
+        <logo></logo>
+        <Head> **||||| Lets Buy Gift Cards (~_~) !! ||||**</Head>
+    </Store_details>
+    <Gift_Cards>
+        <gift_card id= "g1" type="physical">
+            <card_name>STEAM GIFT CARD</card_name>
+            <Brand code="01">Brand: Steam</Brand>
+            <no_of_users categorary="u1">Total number of users: 5000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Rick Ellis</name>
+                <contact_details>Contact Number: 9814138224</contact_details>
+                <address>
+                    <city>City: Dagenham</city>
+                    <street_no>Street No: 192</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2022-05-05</start_date>
+                <end_date>Ending Date: 2028-05-05</end_date>
+            </validity>
+            <cost price="p01">Cost: &#163;42.97</cost>
+            <reawards>
+                <reward>
+                    <points>Rewards: 3000 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: PC Steam</Platform>
+            <Rating>Rating: 5 out of 10</Rating>
+            <Reviews>Reviews: 25,016</Reviews>
+            <description>About: Steam Gift Card 30HKD </description>
+        </gift_card>
+        <gift_card id="g2" type="physical">
+            <card_name>AMAZON GIFT CARD</card_name>
+            <Brand code="02">Brand: Amazon</Brand>
+            <no_of_users categorary="u2">Total number of users: 8000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2022-06-05</start_date>
+                <end_date>Ending Date: 2029-08-05</end_date>
+            </validity>
+            <cost price="p02">Cost: &#163;50.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2022-11-07</expiry_date>
+            </discount_voucher>
+            <Availability>Availability: Out of Stock</Availability>
+            <Platform>Platform: Amazon Flower Pot</Platform>
+            <Rating>Rating: 6 out of 10</Rating>
+            <Reviews>Reviews: 20,016</Reviews>
+            <description>About: Amazon Gift Card for Any Amount in a Flower Pot Reveal</description>
+        </gift_card>
+        <gift_card id="g3" type="digital">
+            <card_name>GOOGLE PLAY GIFT CARD</card_name>
+            <Brand code="03">Brand: Google</Brand>
+            <no_of_users categorary="u3">Total number of users: 10000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Sundar Pichai</name>
+                <contact_details>Contact Number: 9814728936</contact_details>
+                <address>
+                    <city>City: Bexley</city>
+                    <street_no>Street No: 108</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2022-08-15</start_date>
+                <end_date>Ending Date: 2029-12-05</end_date>
+            </validity>
+            <cost price="p03">Cost: &#163;100.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2023-02-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 2500 Points</points>
+                </reward>
+            </reawards>
+            <Platform>Platform: Pay for apps, music</Platform>
+            <Rating>Rating: 9 out of 10</Rating>
+            <Reviews>Reviews: 200,016</Reviews>
+            <description>About: Google Play gift code - give the gift of games, apps and more</description>
+        </gift_card>
+        <gift_card id="g4" type="physical">
+            <card_name>PLAYSTATION PLUS</card_name>
+            <Brand code="04">Brand: KUNYO</Brand>
+            <no_of_users categorary="u4">Total number of users: 1000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2023-08-15</start_date>
+                <end_date>Ending Date: 2028-12-05</end_date>
+            </validity>
+            <cost price="p04">Cost: &#163;150.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2022-12-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 1500 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Playstation</Platform>
+            <Rating>Rating: 7 out of 10</Rating>
+            <Reviews>Reviews: 20,016</Reviews>
+            <description>About: Activate your 3 months of PlayStation Plus membership (HK) today!</description>
+        </gift_card>
+        <gift_card id="g5" type="digital">
+            <card_name>NINTENDO</card_name>
+            <Brand code="05">Brand: Nintendo</Brand>
+            <no_of_users categorary="u5">Total number of users: 8000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2023-06-14</start_date>
+                <end_date>Ending Date: 2027-06-05</end_date>
+            </validity>
+            <cost price="p05">Cost: &#163;150.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2023-05-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 3000 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Nintendo</Platform>
+            <Rating>Rating: 4 out of 10</Rating>
+            <Reviews>Reviews: 20,016</Reviews>
+            <description>About: Nintendo USD100 eShop Card (US)</description>
+        </gift_card>
+        <gift_card id="g6" type="digital">
+            <card_name>ITUNES GIFT CARD</card_name>
+            <Brand code="06">Brand: Itunes</Brand>
+            <no_of_users categorary="u6">Total number of users: 45,000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Jodarn Sim</name>
+                <contact_details>Contact Number: 971416789</contact_details>
+                <address>
+                    <city>City: Bromley</city>
+                    <street_no>Street No: 107</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2023-05-15</start_date>
+                <end_date>Ending Date: 2027-04-05</end_date>
+            </validity>
+            <cost price="p06">Cost: &#163;10,678.89</cost>
+            <reawards>
+                <reward>
+                    <points>Rewards: 6000 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Itunes</Platform>
+            <Rating>Rating: 6 out of 10</Rating>
+            <Reviews>Reviews: 13,016</Reviews>
+            <description>About: This code is valid only on iTunes accounts created in the London Only.</description>
+        </gift_card>
+        <gift_card id="g7" type="physical">
+            <card_name>XBOX LIVE GIFT CARD</card_name>
+            <Brand code="07">Brand: XBOX</Brand>
+            <no_of_users categorary="u7">Total number of users: 15,000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Bill Gates</name>
+                <contact_details>Contact Number: 9814139228</contact_details>
+                <address>
+                    <city>City: Camden</city>
+                    <street_no>Street No: 109</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2023-04-15</start_date>
+                <end_date>Ending Date: 2026-11-05</end_date>
+            </validity>
+            <cost price="p07">Cost: &#163;168.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2024-02-07</expiry_date>
+            </discount_voucher>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Pay for apps, music</Platform>
+            <Rating>Rating: 5 out of 10</Rating>
+            <Reviews>Reviews: 20,616</Reviews>
+            <description>About: You can download the latest HD movies, TV shows, sports, and music, and even watch live events, with your USD100 Xbox Live Gift Card (US).</description>
+        </gift_card>
+        <gift_card id="g8" type="digital">
+            <card_name>VALORANT GIFT CARD</card_name>
+            <Brand code="08">Brand: VALORANT</Brand>
+            <no_of_users categorary="u8">Total number of users: 50,000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2023-03-15</start_date>
+                <end_date>Ending Date: 2027-04-15</end_date>
+            </validity>
+            <cost price="p08">Cost: &#163;200.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2025-02-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 6500 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: PC</Platform>
+            <Rating>Rating: 6 out of 10</Rating>
+            <Reviews>Reviews: 190,016</Reviews>
+            <description>About: Buying the Valorant card could grant you access to a lot of in-game items, battle passes and special perks when it comes to Valorant.</description>
+        </gift_card>
+        <gift_card id="g9" type="physical">
+            <card_name>RAZER GOLD GIFT CARD</card_name>
+            <Brand code="09">Brand: RAZER Inc</Brand>
+            <no_of_users categorary="u9">Total number of users: 3,000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2023-05-28</start_date>
+                <end_date>Ending Date: 2029-12-13</end_date>
+            </validity>
+            <cost price="p09">Cost: &#163;200.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2023-02-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 3000 Points</points>
+                </reward>
+            </reawards>
+            <Platform>Platform:  PC,Browser,Mobile</Platform>
+            <Rating>Rating: 4 out of 10</Rating>
+            <Reviews>Reviews: 10,016</Reviews>
+            <description>About:Razer Gold EUP(Global) (Formerly known as ZGold MOL Points) is an online game credit code that supports more than 2,000 online games.</description>
+        </gift_card>
+        <gift_card id="g10" type="digital">
+            <card_name>ROBLEX GIFT CARD</card_name>
+            <Brand code="10">Brand: ROBLEX</Brand>
+            <no_of_users categorary="u10">Total number of users: 100,000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Kim Shewn</name>
+                <contact_details>Contact Number: 9814319234</contact_details>
+                <address>
+                    <city>City: Malo</city>
+                    <street_no>Street No: 078</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2023-03-05</start_date>
+                <end_date>Ending Date: 2026-05-05</end_date>
+            </validity>
+            <cost price="p10">Cost: &#163;115.89</cost>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Online Game Code</Platform>
+            <Rating>Rating: 10 out of 10</Rating>
+            <Reviews>Reviews: 300,016</Reviews>
+            <description>About: Roblox Gift Card - 2000 Robux [Includes Exclusive Virtual Item] [Online Game Code]</description>
+        </gift_card>
+        <gift_card id="g11" type="digital">
+            <card_name>APEX LEGENDS GIFT CARD</card_name>
+            <Brand code="11">Brand: Riot</Brand>
+            <no_of_users categorary="u11">Total number of users: 6,000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Herny kimson</name>
+                <contact_details>Contact Number: 9817273247</contact_details>
+                <address>
+                    <city>City: Haringey</city>
+                    <street_no>Street No: 108</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2024-08-15</start_date>
+                <end_date>Ending Date: 2026-12-05</end_date>
+            </validity>
+            <cost price="p11">Cost: &#163;80.56</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2025-02-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 3000 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Windows 10</Platform>
+            <Reviews>Reviews: 20,016</Reviews>
+            <description>About: Purchase apex coins to customize your character.</description>
+        </gift_card>
+        <gift_card id="g12" type="physical">
+            <card_name>STARBUCKS GIFT CARD</card_name>
+            <Brand code="12">Brand: STARBUCKS</Brand>
+            <no_of_users categorary="u12">Total number of users: 45,000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2022-08-15</start_date>
+                <end_date>Ending Date: 2028-02-05</end_date>
+            </validity>
+            <cost price="p12">Cost: &#163;80.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2023-04-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 4500 Points</points>
+                </reward>
+            </reawards>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: Starbucks Store</Platform>
+            <Rating>Rating: 7 out of 10</Rating>
+            <Reviews>Reviews: 15,016</Reviews>
+            <description>About: Starbucks Gift Cards - Email Delivery</description>
+        </gift_card>
+        <gift_card id="g13" type="digital">
+            <card_name>LEAUGE OF LEGENDS GIFT CARD</card_name>
+            <Brand code="13">Brand: Riot Games</Brand>
+            <no_of_users categorary="u13">Total number of users: 5000</no_of_users>
+            <validity>
+                <start_date>Starting Date: 2023-05-15</start_date>
+                <end_date>Ending Date: 2028-04-05</end_date>
+            </validity>
+            <cost price="p13">Cost: &#163;90.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2024-02-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 2500 Points</points>
+                </reward>
+            </reawards>
+            <Platform>Platform: PC</Platform>
+            <Rating>Rating: 6 out of 10</Rating>
+            <Reviews>Reviews: 40,016</Reviews>
+            <description>About: Gift cards are only valid on the EUP server</description>
+        </gift_card>
+        <gift_card id="g14" type="physical">
+            <card_name>WWWE GIFT CARD</card_name>
+            <Brand code="14">Brand: 2K</Brand>
+            <no_of_users categorary="u14">Total number of users: 7000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Mark Johson</name>
+                <contact_details>Contact Number: 9876352789</contact_details>
+                <address>
+                    <city>City: Heclorn</city>
+                    <street_no>Street No: 179</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2025-09-15</start_date>
+                <end_date>Ending Date: 2027-12-05</end_date>
+            </validity>
+            <cost price="p14">Cost: &#163;200.89</cost>
+            <Availability>Availability: In Stock</Availability>
+            <Platform>Platform: PC</Platform>
+            <Rating>Rating: 8 out of 10</Rating>
+            <Reviews>Reviews: 20,716</Reviews>
+            <description>About: Third Party - Fable III Occasion [ Xbox 360 ] - 5026555260848</description>
+        </gift_card>
+        <gift_card id="g15" type="digital">
+            <card_name>FIFA GIFT CARD</card_name>
+            <Brand code="15">Brand: Electronic Arts</Brand>
+            <no_of_users categorary="u15">Total number of users: 3000</no_of_users>
+            <owner>
+                <name>Owner of Gif Card: Zery Landson</name>
+                <contact_details>Contact Number: 9867352678</contact_details>
+                <address>
+                    <city>City: Chelsea</city>
+                    <street_no>Street No: 07</street_no>
+                </address>
+            </owner>
+            <validity>
+                <start_date>Starting Date: 2022-07-15</start_date>
+                <end_date>Ending Date: 2030-01-05</end_date>
+            </validity>
+            <cost price="p15">Cost: &#163;250.89</cost>
+            <discount_voucher>
+                <expiry_date>Discount Up to: 2023-07-07</expiry_date>
+            </discount_voucher>
+            <reawards>
+                <reward>
+                    <points>Rewards: 4500 Points</points>
+                </reward>
+            </reawards>
+            <Platform>Platform: PC</Platform>
+            <Rating>8 out of 10</Rating>
+            <Reviews>Reviews: 300,016</Reviews>
+            <description>About: Roll over image to zoom inFIFA 22 Ultimate - Steam PC [Online Game Code]</description>
+        </gift_card>
+    </Gift_Cards>
+</Gift_Card_Store>
